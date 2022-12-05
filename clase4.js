@@ -22,7 +22,7 @@ console.log("Calcular prestamo")
 
 while (importe != "FIN"){
     
-    monto = prompt ("Ingresa el importe o FIN para salir")
+    importe = prompt ("Ingresa el importe o FIN para salir")
     let cuotas = prompt ("Ingresa la cantidad de cuotas: 3, 6, 12");
     let resultado = calcula_prestamo(importe, cuotas);
 
